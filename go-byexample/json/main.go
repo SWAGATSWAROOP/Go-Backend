@@ -90,4 +90,12 @@ func main() {
 	dec.Decode(&res1)
 	fmt.Println(res1)
 
+	/*
+		Json Encoders And Decoders
+		   🔁 Why this matters:
+		   Memory efficiency: You don’t have to load the entire JSON into memory as a string or []byte.
+		   Performance: Great for large payloads (e.g., logs, data dumps, or APIs).
+		   Practical use: Works naturally with HTTP handlers (http.ResponseWriter, http.Request.Body), files, or even real-time streams.
+	*/
+
 }
