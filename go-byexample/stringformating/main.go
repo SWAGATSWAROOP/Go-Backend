@@ -1,1 +1,1 @@
-package stringformating
+package main
